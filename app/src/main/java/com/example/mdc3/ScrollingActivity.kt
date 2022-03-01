@@ -33,7 +33,6 @@ class ScrollingActivity : AppCompatActivity() {
                 .show()
         }
 
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
