@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MDC3</string>
+    <string name="action_settings">Settings</string>
+    <string name="message_action_success">Conexion Exitoso!!</string>
+    <string name="add_task">add_task</string>
+    <string name="card_btn_buy">Buy</string>
+    <string name="card_btn_skip">Skip</string>
+    <string name="large_text">
+                Esto me dio mucho probelema porque hay que sacarlo \n desde otro lugar tengo que averiguar eso que me volcio loco
+    </string>
+    <string name="card_Title">Black Friday !!</string>
+    <string name="card_input_url">image url</string>
+    <string name="card_requerido">Requerido</string>
+    <string name="card_Password">Password</string>
+    <string name="card_enable_Pass">Password</string>
+    <string name="sub_titulo">Subtitulo</string>
+    <string name="sub_parrafo">Parrafo</string>
+    <string name="card_Toogle_red">Red</string>
+    <string name="card_Toogle_Green">Green</string>
+    <string name="card_Toogle_Blue">Blue</string>
+
+
+</resources>
