@@ -44,6 +44,8 @@ class ScrollingActivity : AppCompatActivity() {
                     Toast.makeText(this, R.string.card_historial, Toast.LENGTH_LONG).show()
                 }
                 .show()
+
+
         }
 
     }
