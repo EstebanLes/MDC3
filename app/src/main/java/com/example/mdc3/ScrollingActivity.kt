@@ -53,6 +53,15 @@ class ScrollingActivity : AppCompatActivity() {
             .centerCrop() //amplia y centra la imagen
             .diskCacheStrategy(DiskCacheStrategy.ALL) // optimizamos la cache para que gurde la imagen
             .into(binding.content.imgCover)
+
+        binding.content.cbEnalePass.setOnClickListener {
+            binding.content.tilPassword.isEnabled = !binding.content.tilPassword.isEnabled
+        }
+        binding.content.etUrl.onFocusChangeListener = View.OnFocusChangeListener { view, focused ->
+            if (!focused) {
+            }
+
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
