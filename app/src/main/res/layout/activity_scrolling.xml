@@ -7,7 +7,11 @@
     android:fitsSystemWindows="true"
     tools:context=".ScrollingActivity">
 
-    <include layout="@layout/content_scrolling"/>
+    //este includ hace incluir la otra vista y hay que ponerle el id para que despues cuando use el binding en
+    //el .kt me detecte la vista y me muestre los botones y demas hiervas que se encuentran en esa activity
+    <include
+        android:id="@+id/content"
+        layout="@layout/content_scrolling"/>
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottom_app_bar"

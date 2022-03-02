@@ -6,7 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.widget.Toast
 import com.example.mdc3.databinding.ActivityScrollingBinding
+import com.example.mdc3.databinding.ContentScrollingBinding
 import com.google.android.material.bottomappbar.BottomAppBar
 
 class ScrollingActivity : AppCompatActivity() {
@@ -30,6 +32,17 @@ class ScrollingActivity : AppCompatActivity() {
         binding.bottomAppBar.setOnClickListener {
             Snackbar.make(binding.root, R.string.message_action_success, Snackbar.LENGTH_LONG)
                 .setAnchorView(binding.fab)
+                .show()
+        }
+
+        binding.content.btnBuy.setOnClickListener { binding.content.cardAd.visibility= View.GONE }
+
+        binding.content.btnSkip.setOnClickListener {
+            Snackbar.make(it, R.string.card_buying, Snackbar.LENGTH_LONG)
+                .setAnchorView(binding.fab)
+                .setAction(R.string.card_to_go) {
+                    Toast.makeText(this, R.string.card_historial, Toast.LENGTH_LONG).show()
+                }
                 .show()
         }
 
