@@ -23,6 +23,7 @@
     <string name="card_historial">historial</string>
     <string name="card_required">Se necesita colocar una URL valida</string>
     <string name="card_invalid_url">URL Invalida</string>
+    <string name="hint_url">ingrese una URL</string>
 
 
 </resources>
