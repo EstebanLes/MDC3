@@ -21,6 +21,8 @@
     <string name="card_buying">comprando</string>
     <string name="card_to_go">ir</string>
     <string name="card_historial">historial</string>
+    <string name="card_required">Se necesita colocar una URL valida</string>
+    <string name="card_invalid_url">URL Invalida</string>
 
 
 </resources>
